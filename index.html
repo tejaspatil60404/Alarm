@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wake up alarm</title>
+  
+  <script type="module" crossorigin src="/assets/index-65a16fde.js"></script>
+  <link rel="stylesheet" href="/assets/index-5bbf8aa7.css">
+</head>
+
+<body class="bg-gray-100">
+  <div class="container bg-gray-200 border-2 border-gray-500 rounded-xl w-fit mx-96 my-48 px-5 py-2">
+    <div class="clock my-3 mx-14">
+      <span id="date"></span>th day :
+      <span id="hour"></span> hr :
+      <span id="minute"></span> min :
+      <span id="second"></span> sec
+    </div>
+    <div class="set my-3 mx-12">Set an alarm in 24 hrs format time</div>
+    <div class="enter">
+      <form action="" class="my-2">
+        <input type="number" max="24" min="0" value="00" name="hr" id="hr"
+          class="hr border-2 rounded-md border-gray-800">Hours :
+        <input type="number" max="60" min="0" value="00" name="min" id="min"
+          class="min border-2 rounded-md border-gray-800">Minute :
+        <input type="number" max="60" min="0" value="00" name="sec" id="sec"
+          class="sec border-2 rounded-md border-gray-800">Seconds
+        <br>
+        <button type="submit" id="set"
+          class="mx-36 my-4 bg-black text-white px-5 py-0.5 border-2 rounded-md">Set</button>
+      </form>
+    </div>
+  </div>
+
+  
+</body>
+
+</html>
